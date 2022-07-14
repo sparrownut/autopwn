@@ -1,2 +1,2 @@
 # autopwn
-FUCK
+自动化攻击脚本
