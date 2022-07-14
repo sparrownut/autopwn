@@ -3,18 +3,15 @@ import sys
 
 
 def getFastPwdsDir():
-    path = os.path.join(sys.path[0], "SuperWordlist")
-    return os.path.join(path, "FastPwds.txt")
+    return os.path.join(sys.path[0], "FastPwds.txt")
 
 
 def getMidPwdsDir():
-    path = os.path.join(sys.path[0], "SuperWordlist")
-    return os.path.join(path, "MidPwds.txt")
+    return os.path.join(sys.path[0], "MidPwds.txt")
 
 
 def getLargePwdsDir():
-    path = os.path.join(sys.path[0], "SuperWordlist")
-    return os.path.join(path, "LargePwds.txt")
+    return os.path.join(sys.path[0], "LargePwds.txt")
 #
 #
 # print(getMidPwdsDir())
